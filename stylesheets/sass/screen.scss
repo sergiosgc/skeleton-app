@@ -1,0 +1,59 @@
+$fa-font-path: "webfonts";
+// Milligram colors
+$color-initial: var(--content-fg);
+$color-primary: var(--content-link-fg);
+$color-secondary: #d80000;
+$color-tertiary: #f0f0f0;
+$color-quaternary: #525050;
+$color-quinary: #aaa;
+
+@import "sanitize";
+@import "milligram/milligram";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import "fa/fontawesome.scss";
+@import "fa/solid.scss";
+@import "fa/brands.scss";
+:root {
+    --main-bg: #505050;
+    --main-fg: #616161;
+    --logo-bg: #495469;
+    --logo-fg: #fafafa;
+    --header-bg: #ffffff;
+    --header-fg: #616161;
+    --main-menu-bg: #495469;
+    --main-menu-bg-hover: #172844;
+    --main-menu-fg: #b2b6be;
+    --content-bg: #ffffff;
+    --content-fg: #616161;
+    --content-link-fg: #0099cc;
+    --footer-bg: #f0f0f0;
+    --footer-fg: #616161;
+    background: var(--main-bg);
+    color: var(--main-fg);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: block;
+}
+
+#header {
+    background-color: var(--header-bg);
+    color: var(--header-fg);
+} 
+#main-menu {
+    background-color: var(--main-menu-bg);
+    color: var(--main-menu-fg);
+}
+#content {
+    background-color: var(--content-bg);
+    color: var(--content-fg);
+}
+#footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-fg);
+}

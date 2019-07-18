@@ -1,0 +1,2 @@
+#!/bin/bash
+exec sass --watch sass/screen.scss:screen.css

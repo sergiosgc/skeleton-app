@@ -1,0 +1,60 @@
+{
+    "config": {
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/fs-rest-router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/negotiated-output.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/config-trait"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/crud-trait"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/php-sprintf"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/negotiated-output-components"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/jsonschema-form.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:sergiosgc/auth.git"
+        }
+
+
+    ],
+    "require": {
+        "sergiosgc/sprintf": "dev-master",
+        "sergiosgc/crud-trait": "dev-master",
+        "sergiosgc/config-trait": "dev-master",
+        "sergiosgc/rest-router": "dev-master",
+        "sergiosgc/negotiated-output": "dev-master",
+        "sergiosgc/negotiated-output-components": "dev-master",
+        "sergiosgc/jsonschema-form": "dev-master",
+        "sergiosgc/auth": "dev-master",
+        "aura/session": "~2.1",
+        "aura/filter": "~2.3"
+    },
+    "autoload": {
+        "files": [ "lib/app/Exception.php", "lib/app/functions.php", "vendor/sergiosgc/negotiated-output-components/sergiosgc/register.php" ],
+        "psr-4": { 
+            "model\\": "lib/model",
+            "app\\": "lib/app"
+        }
+    }
+}
