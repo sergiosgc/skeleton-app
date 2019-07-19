@@ -5,35 +5,35 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/fs-rest-router.git"
+            "url": "https://github.com/sergiosgc/fs-rest-router.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/negotiated-output.git"
+            "url": "https://github.com/sergiosgc/negotiated-output.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/config-trait"
+            "url": "https://github.com/sergiosgc/config-trait"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/crud-trait"
+            "url": "https://github.com/sergiosgc/crud-trait"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/php-sprintf"
+            "url": "https://github.com/sergiosgc/php-sprintf"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/negotiated-output-components"
+            "url": "https://github.com/sergiosgc/negotiated-output-components"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/jsonschema-form.git"
+            "url": "https://github.com/sergiosgc/jsonschema-form.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:sergiosgc/auth.git"
+            "url": "https://github.com/sergiosgc/auth.git"
         }
 
 
@@ -56,5 +56,7 @@
             "model\\": "lib/model",
             "app\\": "lib/app"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
