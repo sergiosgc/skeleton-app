@@ -1,0 +1,15 @@
+@import "vendor/normalize.scss";
+$fa-font-path: "../webfonts";
+$fa-style-family: "Font Awesome 6 Pro";
+@import "vendor/font-awesome/fontawesome.scss";
+@import "vendor/font-awesome/regular.scss";
+@import "vendor/font-awesome/solid.scss";
+@import "vendor/font-awesome/brands.scss";
+@import "vendor/font-awesome/duotone.scss";
+@import "vendor/font-awesome/_duotone-icons.scss";
+body {
+    display: block;
+}
+:root {
+    background-color: white;
+}

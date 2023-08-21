@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [ "ES5", "ES6", "DOM" ],
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outFile": "../../js/index.js"
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules"]
+}

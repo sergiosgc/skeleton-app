@@ -1,0 +1,14 @@
+{
+  "name": "example-javascript",
+  "version": "1.0.0",
+  "description": "Javascript component of example site",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "Sérgio Carvalho",
+  "license": "Refer to parent project",
+  "devDependencies": {
+    "@types/node": "^20.5.1"
+  }
+}

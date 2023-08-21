@@ -1,15 +1,29 @@
 {
+    "name": "example.com/app",
+    "description": "The description",
     "config": {
         "secure-http": false
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/sergiosgc/fs-rest-router.git"
+            "url": "https://github.com/sergiosgc/fs-rest-router"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sergiosgc/negotiated-output.git"
+            "url": "https://github.com/sergiosgc/html-components"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sergiosgc/jsonschema-form"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sergiosgc/rest"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sergiosgc/php-array"
         },
         {
             "type": "vcs",
@@ -21,37 +35,42 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/sergiosgc/auth.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/sergiosgc/php-sprintf"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sergiosgc/negotiated-output-components"
+            "url": "https://github.com/sergiosgc/translation"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sergiosgc/jsonschema-form.git"
+            "url": "https://github.com/sergiosgc/localization"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sergiosgc/auth.git"
+            "url": "git@github.com:sergiosgc/api-documents.git"
         }
-
-
     ],
     "require": {
+        "sergiosgc/rest-router": "dev-master",
+        "sergiosgc/html-components": "dev-master",
+        "sergiosgc/jsonschema-form": "dev-master",
+        "sergiosgc/php-array": "dev-master",
         "sergiosgc/sprintf": "dev-master",
         "sergiosgc/crud-trait": "dev-master",
         "sergiosgc/config-trait": "dev-master",
-        "sergiosgc/rest-router": "dev-master",
-        "sergiosgc/negotiated-output": "dev-master",
-        "sergiosgc/negotiated-output-components": "dev-master",
-        "sergiosgc/jsonschema-form": "dev-master",
         "sergiosgc/auth": "dev-master",
-        "aura/session": "~2.1",
-        "aura/filter": "~2.3"
+        "sergiosgc/rest": "dev-master",
+        "sergiosgc/translation": "dev-main",
+        "sergiosgc/localization": "dev-master",
+        "sergiosgc/api-documents": "dev-main",
+        "phpseclib/phpseclib": "3.0.*"
     },
     "autoload": {
-        "files": [ "lib/app/Exception.php", "lib/app/functions.php", "vendor/sergiosgc/negotiated-output-components/sergiosgc/register.php" ],
+        "files": [ "lib/functions.php", "lib/app/Exception.php", "lib/app/functions.php" ],
         "psr-4": { 
             "model\\": "lib/model",
             "app\\": "lib/app"
