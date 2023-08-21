@@ -1,0 +1,8 @@
+#!/bin/bash
+start-stop-daemon --start --pidfile /run/rsyslogd.pid --startas /usr/sbin/rsyslogd
+(cd /srv/www; COMPOSER_AUTH='{"github-oauth": {"github.com": "'$GITHUB_TOKEN'"}}' composer update)
+/etc/init.d/redis-server start
+/etc/init.d/php8.2-fpm start
+/etc/init.d/nginx start
+/etc/init.d/postgresql start
+exec /bin/bash
